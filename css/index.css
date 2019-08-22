@@ -1,0 +1,51 @@
+/*
+@media(min-width:1200px){
+    .jumbotron{
+        background-image:url("../images/PH-Hero.PNG");
+        background-size: cover;
+         padding-top: 10em;
+         padding-bottom: 30em;
+         background-size: cover;
+     }
+     .blurb{
+         margin: 10em;
+         padding: 10em;
+     }
+}
+
+
+@media(min-width:576px){
+
+}
+
+*/
+
+
+/*@media(min-width:576px){
+    .jumbotron{
+        background-image:url("../images/PH-Hero_720x477.png");
+        background-size: cover;
+        padding-top: 10em;
+        padding-bottom: 30em;
+        background-size: cover;
+    } 
+}
+ */
+.jumbotron{
+    background-image:url("../images/PH-Hero.PNG");
+    background-size: cover;
+    padding-top: 10em;
+    padding-bottom: 30em;
+    background-size: cover;
+}
+
+body{
+background: #FBE4D0;
+}
+
+
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}

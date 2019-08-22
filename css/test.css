@@ -1,0 +1,176 @@
+body{
+    padding-top: 60px;
+    background-color: #FBE4D0;
+    
+}
+
+
+.parent {
+      
+    align-items: center;
+   
+  }
+
+  
+  .left {
+    width: 100%;
+    
+    padding-top: 40em;
+    color: #ffffff;
+    background: #eeeeee;
+    min-height: 500px;
+    flex-basis: 66.66%;
+    Font-Family: 'Crimson Text', Serif;
+  }
+  
+  .right{
+    margin-top:1em; 
+    padding-top:2em;
+    color: #222;
+    background: #C8845D;
+    flex-basis: 33.33%;
+    /*border-radius: 60px; */
+    text-align: center;
+    display: table-cell;
+    overflow: hidden;
+    vertical-align:middle;
+    margin-right:3em;
+    Font-Family: 'Crimson Text', Serif;
+    box-shadow: 10px 10px 5px grey;
+    
+  }
+
+  #about_us_container{
+      padding-top:1em;
+      padding-bottom: 1em;
+      Font-Family: 'Crimson Text', Serif;
+    
+  }
+
+  #background_our_core_values{
+      padding-top:1em;
+      Font-Family: 'Crimson Text', Serif;
+  }
+
+  #background_about_us_container{
+    background-color: #fcede0;
+    Font-Family: 'Crimson Text', Serif;
+    
+  }
+  
+  #images{
+      border-radius: 25px;
+  }
+  #background_our_team{
+    background-color: #fcede0;
+    padding-top:1em;
+  }
+  h1,h2,h3,h4,h5,h6{
+    Font-Family: 'Unica One', Cursive;
+  
+  }
+/*
+  hr {
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #E12723;
+} */
+
+  @media screen and (max-width: 475px){
+
+    body{
+        padding-top: 60px;
+    }
+    
+    .parent {
+      flex-direction: column;  
+    }
+    
+    .left {
+        
+        padding-top:40em; 
+        padding-left: 0;
+        padding-right:0;
+      width: auto;
+      min-height: 300px;
+      Font-Family: 'Crimson Text', Serif;
+     /* min-width: 350px; */
+    }
+    
+    .right {
+      background: #C8845D;
+      border-radius: 0;
+      margin:0;
+      margin-top:1em; 
+    padding-top:2em;
+      Font-Family: 'Crimson Text', Serif;
+      
+    }
+  }
+  
+  @media screen and (max-width: 864px){
+
+    body{
+        padding-top: 60px;
+    }
+    
+    .parent {
+      flex-direction: column;  
+    }
+    
+    .left {
+        padding-top:25em; 
+        padding-left: 0;
+      width: auto;
+      min-height: 300px;
+      Font-Family: 'Crimson Text', Serif;
+     /* min-width: 350px; */
+    }
+    
+    .right {
+      background: #C8845D;
+      Font-Family: 'Crimson Text', Serif;
+      border-radius: 0;
+     
+      margin-top:1em; 
+    padding:2em;
+    }
+}
+    
+ @media(min-width: 875px){
+    body{
+        padding-top: 60px;
+        background-color: #FBE4D0;
+    }
+    
+    .parent {
+        display: flex;
+        font-family: arial, sans-serif;
+       
+      }
+      
+      .left {
+        width: 100%;
+        Font-Family: 'Crimson Text', Serif;
+        padding-top: 40em;
+        color: #ffffff;
+        background: #eeeeee;
+        min-height: 500px;
+        flex-basis: 66.66%
+      }
+      
+      .right{
+       
+        margin-top:1em; 
+        padding:2em;
+        color: #222;
+        background: #C8845D;
+        flex-basis: 33.33%;
+        Font-Family: 'Crimson Text', Serif;
+        text-align: center;
+       
+        margin-right:3em;
+        
+      }
+    
+ }
