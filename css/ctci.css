@@ -1,0 +1,256 @@
+
+ body{
+    padding:57px;
+    background-color: #b7c2ba;
+
+}
+.background{
+    background-color: #b7c2ba;
+}
+
+@media (max-width: 979px) {
+   body {
+     padding-top: 60px;
+   }
+ }
+
+ 
+
+
+
+ h1,h2,h3,h4,h5,h6{
+   Font-Family: 'Unica One', Cursive;
+   
+   
+  
+ }
+
+   .fa {
+      text-align: center;
+     }
+.text-box{
+  
+   padding: 2em 2em 1em 2em;
+ 
+   
+   color: #222;
+   background: #ffffff;
+   /*flex-basis: 33.33%; */
+   border-radius: 15px; 
+   
+   Font-Family: 'Crimson Text', Serif;
+   box-shadow: 10px 10px 5px grey;
+       
+     
+
+}
+
+
+
+hr{
+    
+   border-color:  #9eba62;
+}
+
+
+.btn-primary,.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary{
+   background-color: #9eba62;
+   border-color:#283910;
+   color: #000000;
+   Font-Family: 'Crimson Text', Serif;
+}
+
+
+/*
+Scheduling Text
+*/
+ul.calender {
+   padding: 0;
+   list-style-type: none;
+}
+
+ul.calender:first-child {
+   margin-bottom: 0;
+}
+
+ul.calender li {
+   padding: .8rem 0;
+}
+
+.entry .date > h3 {
+font-weight: 400;
+font-size: 2rem;
+}
+
+.entry .date > p {
+   color: rgb(247, 57, 48);
+   margin-bottom: 0.2rem;
+   margin-top: 0.2rem;
+   font-weight: 500;
+   font-size: .85rem;
+   text-transform: uppercase;
+}
+
+.entry .content {
+ border-left: 1px solid rgb(204, 204, 204);
+}
+
+.entry .content > h5 {
+   font-size: 1.2rem;
+   font-weight: 400;
+}
+
+.entry .content > p {
+   font-size: 0.92rem;
+}
+
+.past-schedules {
+   opacity: 1;
+   margin-bottom: 4rem;
+}
+
+#schedule-menu a {
+   color: rgb(247, 57, 48);
+}
+
+
+.post-header {
+   margin-left: 0;
+   margin-right: auto;
+}
+
+.cal-card {
+   width: 450px;
+   background-color: white;
+   border-radius: 8px;
+   padding: 10px 0 10px 0;
+   box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.12);
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+}
+
+.cal-card .date {
+   width: 20%;
+   vertical-align: top;
+}
+
+.cal-card .content {
+   padding: 8px 16px;
+   width: 79%;
+}
+
+
+
+
+
+
+
+
+
+/* Extra large devices (tablets, greater than or equal 1200px) */
+@media (min-width: 1200px) {
+   .post-header {
+       width: 1020px;
+   }
+}
+
+/* Large devices (tablets, less than 1200px) */
+@media (max-width: 1199px) {
+   .post-header {
+       width: 930px;
+   }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+   #schedule-menu {
+       display: none;
+   }
+
+   .post-header {
+       width: 450px;
+       text-align: center;
+   }
+}
+
+/* Smaller than xs (portrait phones, less than 500px) */
+@media (max-width: 500px) {
+   .cal-card, .post-header {
+       width: 350px;
+   }
+
+   ul.calender li {
+       padding: .4rem 0;
+   }
+
+   
+   .text-box{
+  
+       margin-top:1em; 
+       padding-top:2em;
+       color: #222;
+       background: #283910;
+       /*flex-basis: 33.33%;
+       /*border-radius: 60px; */
+       margin-left: 1em;
+       margin-right:1em;
+       Font-Family: 'Crimson Text', Serif;
+       box-shadow:  5px 8px 10px grey;
+           
+         
+    }
+    .header_container{
+        padding:0px;
+        margin: 0;
+    }
+    .content_container{
+        padding: 0;
+    }
+    body{
+       padding-top: 57px;
+       margin: 0;
+    }
+    
+    
+   
+
+
+}
+
+/*
+@media (max-width: 991px) {
+   #schedule-menu {
+       display: none;
+   }
+   .text-box{
+  
+       margin-top:1em; 
+       padding-top:2em;
+       color: #222;
+       background: #C8845D;
+       flex-basis: 33.33%;
+       border-radius: 60px; 
+       margin-left: 2em;
+       margin-right:2em;
+       Font-Family: 'Crimson Text', Serif;
+       box-shadow:  5px 8px 10px grey;
+           
+         
+    }
+    .header_container{
+        padding:0px;
+        margin: 0;
+    }
+    .content_container{
+        padding: 0;
+    }
+    body{
+       padding-top: 57px;
+       margin: 0;
+    }
+    
+    
+}
+*/ 
+

@@ -1,9 +1,212 @@
-body { padding-top: 70px; 
-    background: rgb(190, 84, 46);
-    background: -webkit-linear-gradient(to right, rgb(204, 146, 125), rgb(114, 51, 36));
-    background: linear-gradient(to right, #E8CBC0, #636FA4);
-    min-height: 100vh;
+/*--------------------------------------------------------------
+Reset
+--------------------------------------------------------------*/
+
+figure {
+    margin: 0;
+}
+
+/*--------------------------------------------------------------
+Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+html{
+    background-color: #fcede0;
+}
+
+body{
+    padding-top: 60px;
+    background-color: #d4c27b;
+    Font-Family: 'Crimson Text', Serif;
+    font-size: 25px;
+    
+}
+.h1,h2,h3,h4,h5,h6{
+    font-family: 'Unica One', Cursive;
+}
+
+.header_container{
+    background-color: #fcede0;
+}
+
+.text-box{
+   
+    padding: 2em 2em 1em 2em;
+  margin-bottom: 3em;
+    
+    color: #222;
+    background: #ffffff;
+    /*flex-basis: 33.33%; */
+    border-radius: 15px; 
+    
+    Font-Family: 'Crimson Text', Serif;
+    box-shadow: 10px 10px 5px grey;
+        
+      
+  
+  }
+
+
+/*--------------------------------------------------------------
+Header styles
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+Layout
+--------------------------------------------------------------*/
+.main-area {
+	padding: 1em;
+    background-color: #fcede0;
+}
+
+@media screen and (min-width: 50em) {
+    .main-area {
+        display: flex;
+    }
+
+    .filters {
+        box-sizing: border-box;
+        margin-top: 1em;
+        padding-right: 1em;
+        width: 20%;
+    }
+
+    .courses {
+        width: 80%;
+    }
+}
+
+/*--------------------------------------------------------------
+Filter buttons
+--------------------------------------------------------------*/
+.filters {
 
 }
 
+.filters ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
 
+.filters li {
+    margin: 0 2px 2px 0;
+}
+
+.filters a {
+    display: block;
+    padding: .5em 1em;
+    font-size: 80%;
+    border: solid 1px hsl(0, 0%, 50%);
+    color: #333;
+    text-decoration: none;
+    background: white;
+}
+
+.filters a:hover {
+    outline: 2px solid orange;
+}
+
+a.checked {
+    background: hsl(0, 0%, 50%);
+    color: white;
+}
+
+.btn.btn-block.btn-success{
+    background-color:#C8845D;
+    border-color: #C8845D;
+}
+
+/*--------------------------------------------------------------
+Courses
+--------------------------------------------------------------*/
+
+.courses {
+    margin: 0 auto;
+    
+    
+}
+
+.card{
+    width: 18rem;
+    
+}
+
+.course {
+    box-sizing: border-box;
+    padding: 1em;
+}
+
+@media screen and (min-width: 60em) {
+    .course {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 80em) {
+    .course {
+        width: 33.33333%;
+    }
+}
+
+@media screen and (min-width: 100em) {
+    .course {
+        width: 25%;
+    }
+}
+
+.course a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.course a:hover h2,
+.course a:focus h2 {
+    text-decoration: underline;
+}
+
+.course img {
+    display: block;
+    width: 100%;
+}
+
+.course figure {
+    background: white;
+}
+
+.info {
+    padding: 0 2em 1em;
+}
+
+.author {
+    margin-top: -.5em;
+    margin-bottom: 1.5em;
+    padding-top: 1em;
+    font-weight: 700;
+    font-size: .8em;
+    border-top: 1px solid #ededed;
+}
+
+.by {
+    font-weight: 100;
+}
+
+.description {
+    line-height: 1.3em;
+}

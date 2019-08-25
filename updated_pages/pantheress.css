@@ -1,33 +1,35 @@
-body {
-    padding-top: 60px;
-    background-color:#b7c2ba;
-      }
-      
-    
-  
 
-  p{
-      text-align: center;
+  @media (max-width: 979px) {
+    body {
+      padding-top: 60px;
+    }
   }
 
-  hr{
-      border-color:  #f16953;
+  
+  .header_container{
+      background-color: #FBE4D0;
+  }
+  .content_container{
+    background-color:#fdf0e4;
   }
 
   h1,h2,h3,h4,h5,h6{
     Font-Family: 'Unica One', Cursive;
     
-
     
    
   }
-  .text-box{
+
+    .fa {
+       text-align: center;
+      }
+ .text-box{
    
     padding: 2em 2em 1em 2em;
   
     
     color: #222;
-    background: #ffffff;
+    background: #C8845D;
     /*flex-basis: 33.33%; */
     border-radius: 15px; 
     
@@ -37,30 +39,27 @@ body {
       
 
  }
-  @media (max-width: 979px) {
-    body {
-      padding-top: 60px;
-    }
-  }
 
-  .PantherHackersTitle{
-      text-align: center;
-  }
+.background{
+  background-color: #FBE4D0;
+}
 
-  
+ hr{
+    margin: 0 auto; 
+ }
+
+
  .btn-primary,.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary{
-    background-color:#f16953;
-    border-color:#000000;
+    background-color:#9eba62;
+    border-color:#9eba62;
     color: #000000;
     Font-Family: 'Crimson Text', Serif;
  }
 
 
-    .fa {
-       text-align: center;
-      }
-  
-	
+ /*
+ Scheduling Text
+ */
 ul.calender {
     padding: 0;
     list-style-type: none;
@@ -110,15 +109,6 @@ ul.calender li {
     color: rgb(247, 57, 48);
 }
 
-/* .options {
-    justify-content: flex-end;
-    padding-bottom: 1.5rem;
-}
-
-.options a {
-    cursor: pointer;
-    font-size: 0.8rem;
-} */
 
 .post-header {
     margin-left: 0;
@@ -145,6 +135,14 @@ ul.calender li {
     padding: 8px 16px;
     width: 79%;
 }
+
+
+
+
+
+
+
+
 
 /* Extra large devices (tablets, greater than or equal 1200px) */
 @media (min-width: 1200px) {
@@ -181,4 +179,74 @@ ul.calender li {
     ul.calender li {
         padding: .4rem 0;
     }
+
+    
+    .text-box{
+   
+        margin-top:1em; 
+        padding-top:2em;
+        color: #222;
+        background: #C8845D;
+        /*flex-basis: 33.33%;
+        /*border-radius: 60px; */
+        margin-left: 1em;
+        margin-right:1em;
+        Font-Family: 'Crimson Text', Serif;
+        box-shadow:  5px 8px 10px grey;
+            
+          
+     }
+     .header_container{
+         padding:0px;
+         margin: 0;
+     }
+     .content_container{
+         padding: 0;
+     }
+     body{
+        padding-top: 57px;
+        margin: 0;
+     }
+     
+     
+    
+
+
 }
+
+/*
+@media (max-width: 991px) {
+    #schedule-menu {
+        display: none;
+    }
+    .text-box{
+   
+        margin-top:1em; 
+        padding-top:2em;
+        color: #222;
+        background: #C8845D;
+        flex-basis: 33.33%;
+        border-radius: 60px; 
+        margin-left: 2em;
+        margin-right:2em;
+        Font-Family: 'Crimson Text', Serif;
+        box-shadow:  5px 8px 10px grey;
+            
+          
+     }
+     .header_container{
+         padding:0px;
+         margin: 0;
+     }
+     .content_container{
+         padding: 0;
+     }
+     body{
+        padding-top: 57px;
+        margin: 0;
+     }
+     
+     
+}
+*/ 
+

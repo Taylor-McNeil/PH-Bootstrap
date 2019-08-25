@@ -3,38 +3,437 @@
     <head>
         <meta charset="utf-8">
         <meta name = "viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Social Media Icons-->
         <link rel="stylesheet" type="text/css" href="css/index.css">
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Unica+One" rel="stylesheet">
         
         <title>PantherHackers</title>
     </head>
-    <body>
-<div class="container-fluid">
-        <div class="jumbotron">
-            <div class="container">
-                <div class="row justify-content-center ">
-                    
-                    <div class="col-lg-9 ">
-                          
-                    </div>
 
-                    <div class="col-lg-3 ">
-                        <h1 > We are PantherHackers</h1>
-                        <p>
-                            We provide a techological playground for students interested in techology at Georgia State. 
-                        </p>
-                        <br>
-                        <a href ="#" class="btn btn-primary">Learn More</a>
+    <body>
+
+      <header>
+   
+
+        <!-- The Nav Bar-->
+        
+            <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+                    <a class="navbar-brand" href="index.html">PantherHackers</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav ml-auto">
+                       
+                       
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="events.html">Events</a>
+                        </li>
+
+        <!-- Drop down portion of the nav bar-->                
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Interest Groups
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="ios.html">IOS Development</a>
+                            <a class="dropdown-item" href="pantheress.html">Pantheress</a>
+                            <a class="dropdown-item" href="#">Robotics</a>
+                            <a class="dropdown-item" href="#">CyberSecurity</a>
+                            <a class="dropdown-item" href="#">CTCI</a>
+                            <a class="dropdown-item" href="#">Start Ups</a>
+                          </div>
+                        </li>
+                        
+                        <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="modal" data-target="#ContactUsModal">Contact</a>
+                        </li>
+                      </ul>
                     </div>
+                  </nav>
+
+            <!-- Modals for Nav Bar (About)-->   
+               
+            <!-- Modals for Nav Bar (Contact)-->
+                <div class="modal fade " tabindex="-1" role="dialog" id=ContactUsModal>
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Want to Chat?</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <div class= "container">
+                                  
+                                <div class="row">
+                                      <div class="col-sm-6">
+                                     <em>PantherHackers HQ</em>
+                                      <p>55 Gilmer St SE <br> 
+                                        Atlanta,GA 30303
+                                      </p>
+                                       
+                                      </div>
+                                      <div class="col-sm-6">
+                                          Email Form goes here
+                                        </div>
+                                    </div>
+                                    
+                                        
+                                      
+
+                              </div>
+                             
+
+
+                            </div>
+                            <div class="modal-footer justify-content-between">
+                            
+                                    <a href="https://twitter.com/pantherhackers?lang=en" class="fa fa-twitter fa-2x "></a>
+                                    <a href="https://join.slack.com/t/pantherhackers/shared_invite/enQtNTgzMzU2MDI2MzczLTFhZjgxNWY5MTI2NWYzMTVmOTJiMTBlODIxNWJmODdiOWY1NTBhYWQwZmFiMWE0NWRlZDEyMDM2MmEwYzQwOTQ" class="fa fa-slack fa-2x"></a>
+                                    <a href="https://www.instagram.com/pantherhackers/" class="fa fa-instagram fa-2x"></a>
+                                    <a href ="https://www.linkedin.com/company/12177373" class="fa fa-linkedin fa-2x"></a>
+                                    <a href="https://www.facebook.com/PantherHackers/" class="fa fa-facebook fa-2x"></a>
+                                   
+                                    
+                            </div>
+                          </div>
+                        </div>
+                      </div>        
+   
+
+</header>
+
+
+
+
+        <div class="container-fluid" id="header_container">
+
+            <div class="container-fluid">
+                <div class="row row align-items-center " id="UpperPortion">
+                     <div class="col-lg-8">
+                           <img src="images/PH-Hero.PNG" class="img-fluid">
+                      </div>
+                      <div class="col-lg-4 mx-auto right">
+                        
+                       
+                        
+                          
+                          <h2 class="animated lightSpeedIn delay-1s text-center">Welcome</h2>
+                          <hr class="my-4 animated lightSpeedIn delay-1s">
+                         <p class="animated flipInX delay-2s">We are PantherHackers. We provide a techological playground for students interested in techology at Georgia State. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. Nam ultricies laoreet massa sed maximus. 
+                                Curabitur tristique sagittis scelerisque. Vivamus posuere nisi quis tortor interdum, in finibus risus convallis. 
+                                Suspendisse efficitur lacus a nulla commodo, sit amet vestibulum nibh.
+                        </p>
+                        <p>
+                                <a href="#" class="action-button shadow animate blue">Hello</a>
+                        </p> 
+        
+                     
+                        
+                          
+                      
+                      </div>              
+      
+                </div>   
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+          <!--
+            <div class="parent">
+  
+                    <div class="left" style="background: url(../images/PH-Hero.PNG) center center no-repeat; background-size: cover;  "></div>
+                    
+                    <div class="right">
+                      <h2 class="animated lightSpeedIn delay-1s">Welcome</h2>
+                      <hr class="my-4 animated lightSpeedIn delay-1s">
+                     <p class="animated flipInX delay-2s">We are PantherHackers. We provide a techological playground for students interested in techology at Georgia State. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. Nam ultricies laoreet massa sed maximus. 
+                            Curabitur tristique sagittis scelerisque. Vivamus posuere nisi quis tortor interdum, in finibus risus convallis. 
+                            Suspendisse efficitur lacus a nulla commodo, sit amet vestibulum nibh.
+                    </p>
+                    <p>
+                            <a href="#" class="action-button shadow animate blue">Hello</a>
+                    </p> 
+
+                    </div>
+                    
+                  </div>
+
+                -->
+        </div>
+        <br>
+        <div class="container-fluid" id="background_about_us_container">
+        <div class="container" id="about_us_container">
+            <div class="row">
+
+                <div class="col-md-12">
+                        <h1 class="text-center">Our History</h1>
+                </div>
+                </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <br>
+                    <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                
+
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    
+                    <img src="images/Caro0.JPG" class="img-fluid" id="images">
+                    </div>
+            </div>
+
+            <br>
+            <br>
+            <div class="row">
+                    <div class="col-md-6">
+                        <br>
+                       <img src="images/Caro1.jpg" class="img-fluid" id="images">
+                    </div>
+                    <div class="col-md-6">
+                        
+                        
+                        <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                    
+    
+                        </p>
+                        </div>
+                </div>
+                <br>
+                <br>
+
+                <div class="row">
+                        <div class="col-md-6">
+                            <br>
+                            <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                        
+        
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            
+                            <img src="images/Caro2.JPG" class="img-fluid" id="images">
+                            </div>
+                    </div>
+                          
+
+        </div>
+        </div>
+
+        <div class="container-fluid" id="background_our_core_values">
+            <div class="container" id="our_core_values">
+                    <div class="col-md-12">
+                            <h1 class="text-center">Our Core Values</h1>
+                            <div class="text-muted">
+                                    <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. Nam ultricies laoreet massa sed maximus. 
+                                            Curabitur tristique sagittis scelerisque. Vivamus posuere nisi quis tortor interdum, in finibus risus convallis. 
+                                            Suspendisse efficitur lacus a nulla commodo, sit amet vestibulum nibh.
+
+                                    </p>
+                                </div>
+                    </div>
+                    
+                <div class="row">
+                        <div class="row justify-content-md-center" id="Icons_container">
+
+                                <div class="col-lg-4 icons text-center">
+                              
+                                    <span class="fa-stack fa-4x">
+                                    
+                                        <i class="fa fa-desktop fa-stack-1x" style="color: #C8845D"></i>
+                                    </span>
+                                    <h4 class="text-center">Hacking</h4>
+                                    <p class="text-center text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                                    </p>
+                                </div>
+                        
+                                <div class="col-lg-4 icons text-center">
+                                    <span class="fa-stack fa-4x">
+                                     
+                                      <i class="fa fa-wrench fa-stack-1x" style="color: #C8845D"></i>
+                                      </span>
+                                    <h4 class="text-center">Making</h4>
+                                    <p class="text-center text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                                    </p>
+                                  </div>
+                        
+                                  <div class="col-lg-4 icons text-center">
+                                    <span class="fa-stack fa-4x">
+                                     
+                                      
+                                      <i class="fa fa-book fa-stack-1x" style="color: #C8845D" ></i>
+                                    </span>
+                                    <h4 class="text-center">Learning</h4>
+                                    <p class="text-center text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada tellus lorem, et condimentum neque commodo
+                                    </p>
+                                  </div>
+                            </div>
 
                 </div>
             </div>
         </div>
-    </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <div class="container-fluid" id="background_our_team">
+            <div class="container">
+                <div class="row">
+
+                        <div class="col-md-12">
+                                <h1 class="text-center">Our Team</h1>
+                                <div class="text-muted">
+                                    <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non lectus justo. Nam ultricies laoreet massa sed maximus. 
+                                            Curabitur tristique sagittis scelerisque. Vivamus posuere nisi quis tortor interdum, in finibus risus convallis. 
+                                            Suspendisse efficitur lacus a nulla commodo, sit amet vestibulum nibh.
+
+                                    </p>
+                                </div>
+                                <br>
+                        </div>
+
+                    
+
+                    <!--Team Introductions-->
+                        <div class="col-xl-3 col-sm-6 mb-5 text-center">
+                                <div class="bg-white rounded shadow-sm py-5 px-4"><img src="images/favacon.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                                  <h5 class="mb-0">Taylor McNeil</h5><span class="small text-uppercase text-muted">Cheif Executive Officer & CTCI Instructor</span>
+                                   <ul class="social mb-0 list-inline mt-3">
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                                    
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-envelope"></i></a></li>
+                                  </ul>
+                                </div>
+                        </div>
+
+                        <div class="col-xl-3 col-sm-6 mb-5 text-center">
+                                <div class="bg-white rounded shadow-sm py-5 px-4"><img src="images/favacon.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                                  <h5 class="mb-0">Ryan Walden</h5><span class="small text-uppercase text-muted">Chief Technical Officer & Robotics Instructor</span>
+                                   <ul class="social mb-0 list-inline mt-3">
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                                    
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-envelope"></i></a></li>
+                                  </ul>
+                                </div>
+                        </div>
+
+                        <div class="col-xl-3 col-sm-6 mb-5 text-center">
+                                <div class="bg-white rounded shadow-sm py-5 px-4"><img src="images/favacon.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                                  <h5 class="mb-0">Fabian Kim</h5><span class="small text-uppercase text-muted">Chief Operations Officer & Hackathon Coordinater</span>
+                                   <ul class="social mb-0 list-inline mt-3">
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                                    
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-envelope"></i></a></li>
+                                  </ul>
+                                </div>
+                        </div>
+
+                        <div class="col-xl-3 col-sm-6 mb-5 text-center">
+                                <div class="bg-white rounded shadow-sm py-5 px-4"><img src="images/favacon.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                                  <h5 class="mb-0">Sultan Arefin Khan</h5><span class="small text-uppercase text-muted">Chief Financial Officer</span> <br> <br>
+                                   <ul class="social mb-0 list-inline mt-3">
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                                    
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-envelope"></i></a></li>
+                                  </ul>
+                                </div>
+                        </div>
+
+                        <div class="col-xl-3 col-sm-6 mb-5 text-center">
+                                <div class="bg-white rounded shadow-sm py-5 px-4"><img src="images/favacon.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                                  <h5 class="mb-0">Serena Johnson</h5><span class="small text-uppercase text-muted">Chief Marketing Officer</span>
+                                   <ul class="social mb-0 list-inline mt-3">
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                                    
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-envelope"></i></a></li>
+                                  </ul>
+                                </div>
+                        </div>
+
+                        <div class="col-xl-3 col-sm-6 mb-5 text-center">
+                                <div class="bg-white rounded shadow-sm py-5 px-4"><img src="images/favacon.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                                  <h5 class="mb-0">Nate Thompson</h5><span class="small text-uppercase text-muted">IOS Instuctor</span>
+                                   <ul class="social mb-0 list-inline mt-3">
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                                    
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-envelope"></i></a></li>
+                                  </ul>
+                                </div>
+                        </div>
+
+                        <div class="col-xl-3 col-sm-6 mb-5 text-center">
+                                <div class="bg-white rounded shadow-sm py-5 px-4"><img src="images/favacon.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                                  <h5 class="mb-0">Mia Stroud</h5><span class="small text-uppercase text-muted">CyberSecurity Instructor</span>
+                                   <ul class="social mb-0 list-inline mt-3">
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                                    
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-envelope"></i></a></li>
+                                  </ul>
+                                </div>
+                        </div>
+
+                        <div class="col-xl-3 col-sm-6 mb-5 text-center">
+                                <div class="bg-white rounded shadow-sm py-5 px-4"><img src="images/favacon.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                                  <h5 class="mb-0">Sana Rehmani</h5><span class="small text-uppercase text-muted">Pantheress Instructor</span>
+                                   <ul class="social mb-0 list-inline mt-3">
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                                    
+                                    <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-envelope"></i></a></li>
+                                  </ul>
+                                </div>
+                        </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
 
         
       <!--  <div class="container-fluid footer navbar-fixed-bottom">

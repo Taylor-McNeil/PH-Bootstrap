@@ -1,42 +1,7 @@
 body {
     padding-top: 60px;
-    background-color:#b7c2ba;
-      }
-      
     
-  
-
-  p{
-      text-align: center;
   }
-
-  hr{
-      border-color:  #f16953;
-  }
-
-  h1,h2,h3,h4,h5,h6{
-    Font-Family: 'Unica One', Cursive;
-    
-
-    
-   
-  }
-  .text-box{
-   
-    padding: 2em 2em 1em 2em;
-  
-    
-    color: #222;
-    background: #ffffff;
-    /*flex-basis: 33.33%; */
-    border-radius: 15px; 
-    
-    Font-Family: 'Crimson Text', Serif;
-    box-shadow: 10px 10px 5px grey;
-        
-      
-
- }
   @media (max-width: 979px) {
     body {
       padding-top: 60px;
@@ -48,18 +13,61 @@ body {
   }
 
   
- .btn-primary,.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary{
-    background-color:#f16953;
-    border-color:#000000;
-    color: #000000;
-    Font-Family: 'Crimson Text', Serif;
- }
-
 
     .fa {
        text-align: center;
       }
-  
+  /*
+
+  @import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic");
+  @import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
+  body {
+  padding: 60px 0px;
+  background-color: rgb(220, 220, 220);
+  }
+  .event-list {
+		list-style: none;
+		font-family: 'Lato', sans-serif;
+		margin: 0px;
+		padding: 0px;
+	}
+	.event-list > li {
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px 0px 5px rgb(51, 51, 51);
+		box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
+		padding: 0px;
+		margin: 0px 0px 20px;
+	}
+	.event-list > li > time {
+		display: inline-block;
+		width: 100%;
+		color: rgb(255, 255, 255);
+		background-color:#F15137;
+		padding: 5px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.event-list > li:nth-child(even) > time {
+		background-color: rgb(165, 82, 167);
+	}
+	.event-list > li > time > span {
+		display: none;
+	}
+	.event-list > li > time > .day {
+		display: block;
+		font-size: 36pt;
+		font-weight: 50;
+		line-height: 1;
+	}
+	.event-list > li time > .month {
+		display: block;
+		font-size: 24pt;
+		font-weight: 900;
+		line-height: 1;
+	}
+
+	*/
+
 	
 ul.calender {
     padding: 0;

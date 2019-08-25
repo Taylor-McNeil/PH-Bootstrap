@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name = "viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Social Media Icons-->
-        <link rel="stylesheet" type="text/css" href="css/events.css">
-        
-        <title>Events</title>
-    </head>
+<html lang="en-US">
 
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Isotope Filtering Demo</title>
+    <link rel="stylesheet" href="css/events.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Unica+One" rel="stylesheet">
+</head>
 
-<header>
-   
+<body>
+    <header>
 
         <!-- The Nav Bar-->
         
@@ -26,9 +25,7 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                       <ul class="navbar-nav ml-auto">
                        
-                        <li class="nav-item">
-                          <a class="nav-link" href="about.html">About</a>
-                        </li>
+                     
 
                         <li class="nav-item">
                           <a class="nav-link" href="events.html">Events</a>
@@ -41,16 +38,18 @@
                           </a>
                           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item" href="ios.html">IOS Development</a>
-                            <a class="dropdown-item" href="#">Pantheress</a>
-                            <a class="dropdown-item" href="#">Robotics</a>
-                            <a class="dropdown-item" href="#">CyberSecurity</a>
-                            <a class="dropdown-item" href="#">CTCI</a>
-                            <a class="dropdown-item" href="#">Start Ups</a>
+                            <a class="dropdown-item" href="pantheress.html">Pantheress</a>
+                            <a class="dropdown-item" href="robotics.html">Robotics</a>
+                            <a class="dropdown-item" href="cybersecurity.html">CyberSecurity</a>
+                            <a class="dropdown-item" href="ctci.html">CTCI</a>
+                            <a class="dropdown-item" href="https://ecodrop.tech/">Ecodrop</a>
                           </div>
                         </li>
+                        <!--
                         <li class="nav-item">
-                                <a class="nav-link" href="#">Resources</a>
+                                <a class="nav-link" href="resources.html">Resources</a>
                         </li>
+                      -->
                         <li class="nav-item">
                                 <a class="nav-link" href="#" data-toggle="modal" data-target="#ContactUsModal">Contact</a>
                         </li>
@@ -58,8 +57,9 @@
                     </div>
                   </nav>
 
-            <!-- Modals for Nav Bar (About)-->   
-               
+          
+       
+
             <!-- Modals for Nav Bar (Contact)-->
                 <div class="modal fade " tabindex="-1" role="dialog" id=ContactUsModal>
                         <div class="modal-dialog" role="document">
@@ -71,28 +71,7 @@
                               </button>
                             </div>
                             <div class="modal-body">
-                              <div class= "container">
-                                  
-                                <div class="row">
-                                      <div class="col-sm-6">
-                                     <em>PantherHackers HQ</em>
-                                      <p>55 Gilmer St SE <br> 
-                                        Atlanta,GA 30303
-                                      </p>
-                                       
-                                      </div>
-                                      <div class="col-sm-6">
-                                          Email Form goes here
-                                        </div>
-                                    </div>
-                                    
-                                        
-                                      
-
-                              </div>
-                             
-
-
+                              <p>Modal body text goes here.</p>
                             </div>
                             <div class="modal-footer justify-content-between">
                             
@@ -107,363 +86,228 @@
                           </div>
                         </div>
                       </div>        
+    </header>
    
 
-</header>
-
-
-
-<div class="container">
-    <div class="row">
-      <div class="col-md-3 d-none d-md-block">
-        <div class="card">
-          <div class="card-header">
-            Filters
-          </div>
-          <div class="card-body">
+<div class="container-fluid header_container">
+    <div class="container ">
+        <div class="row row align-items-center text-center" id="UpperPortion">
             
-            <strong>
-              Clubs
-            </strong>
-            <div class="form-group">
-
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input">
-                <label class="form-check-label">
-                  PantherHackers
-                </label>
+            <div class="col-lg-8">
+                   <img src="images/Events.PNG" class="img-fluid">
               </div>
 
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input">
-                <label class="form-check-label">
-                  Girls++
-                </label>
-              </div>
+              <div class="col-lg-4 d-flex ">
+              
+                <div class="container ">
+                   
 
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input">
-                <label class="form-check-label">
-                  IEEE
-                </label>
-              </div>
+                   <br class="d-none d-lg-block">
+                   <br class="d-none d-lg-block">
+                  
+                    <div class ="row text-box  ">
+                        <div class="col-lg-12 animated lightSpeedIn delay-1s">
+                                <h1>Technology Events</h1>
+                                <hr>
+                             
+                              
+                                <p class=""><em>Promoting Unity @ Georgia State<br></em></p>
+                                <p>The mission of Pantheress is to support the increasing growth and awareness of Women in Technology through hosting workshops that teach different skills both technical and non-technical that are useful in the industry and encourage career growth and discovery through hosting a variety of different speaker series. </p>
+                                
+                        </div>
+                            
+                    </div>
+             
 
-              <div class="form-check">
-                  <input type="checkbox" class="form-check-input">
-                  <label class="form-check-label">
-                    GirlsWhoCode
-                  </label>
-                </div>
-  
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input">
-                  <label class="form-check-label">
-                    CS Club
-                  </label>
-                </div>
-  
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input">
-                  <label class="form-check-label">
-                    IEEE
-                  </label>
-                </div>
-
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input">
-                    <label class="form-check-label">
-                      ACM
-                    </label>
-                  </div>
-
-                  <div class="form-check">
-                      <input type="checkbox" class="form-check-input">
-                      <label class="form-check-label">
-                        WIT
-                      </label>
+                    <div class ="row text-box">
+                            <div class="col-lg-12 animated lightSpeedIn delay-1s">
+                            <h1 class="PantherHackersTitle">Want to Join the List?</h1>
+                            <hr>
+                            <br>
+                            
+                            <p>Thanks for checking us out! School is just starting and we still ironing out dates and times for meetings. <b><em> Interest group meetings will begin the week of September 9th.</em> </b> In the meantime, join our slack channel to stay up to date. See you soon.
+                                <br><br>
+                                <a href="https://join.slack.com/t/pantherhackers/shared_invite/enQtNTgzMzU2MDI2MzczLTFhZjgxNWY5MTI2NWYzMTVmOTJiMTBlODIxNWJmODdiOWY1NTBhYWQwZmFiMWE0NWRlZDEyMDM2MmEwYzQwOTQ"><button type="button" class="btn btn-primary ">Join Us!</button></a>
+                            </p>
+                           </div>
                     </div>
                     
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input">
-                        <label class="form-check-label">
-                          ISSA
-                        </label>
-                      </div>     
-            </div>
+                   
 
-
-            <div class="form-group">
-                <strong>
-                    Day
-                  </strong>
-
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input">
-                    <label class="form-check-label">
-                      Monday
-                    </label>
-                </div>
-
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input">
-                    <label class="form-check-label">
-                      Tuesday
-                    </label>
-                </div>
-
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input">
-                    <label class="form-check-label">
-                      Wednesday
-                    </label>
-                </div>
-
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input">
-                    <label class="form-check-label">
-                      Thursday
-                    </label>
-                </div>
-
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input">
-                    <label class="form-check-label">
-                      Friday
-                    </label>
-                </div>
-          </div>
-
-          <strong>
-              Type of Event
-            </strong>
-            <div class="form-group">
-
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input">
-                <label class="form-check-label">
-                  Workshop
-                </label>
-              </div>
-
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input">
-                <label class="form-check-label">
-                  Speaker
-                </label>
-              </div>
-
-              <div class="form-check">
-                <input type="checkbox" class="form-check-input">
-                <label class="form-check-label">
-                  General Body Meeting
-                </label>
-              </div>
-
-              <div class="form-check">
-                  <input type="checkbox" class="form-check-input">
-                  <label class="form-check-label">
-                   Election
-                  </label>
-                </div>
-  
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input">
-                  <label class="form-check-label">
-                    Conference
-                  </label>
-                </div>
-  
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input">
-                  <label class="form-check-label">
-                    Party
-                  </label>
-                </div>
-
+               </div> 
                 
+                  
+              
+              </div>              
 
-
-
-            </div>
-
-
-
-
-        </div>
-      </div>
-      </div>
-
-      <div class="col-md-3 d-md-none text-center center-block ">
-          <input type="text" id="myFilter" class="form-control" onkeyup="myFunction()" placeholder="Search for names..">
-            <br>
-      </div>
-
-
-
-      <div class="col-12 col-md-9">
-        <div class="row no-gutters" id="myItems">
-
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="card mb-3">
-                  <div class="card-image-cap">
-                    <img src="images/Large Logo.png" alt="" class="img-fluid">
-                  </div>
-                  <div class="card-body">
-                    <strong>
-                      General event text
-                    </strong>
-                    <p>
-                        Girls++ presents a new event focusing on helping girls grow!! 9/12/19 in Classroom South
-                    </p>
-                    <button class="btn btn-block btn-success">
-                      RSVP
-                    </button>
-                  </div>
-                </div>
-              </div>
-
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="card mb-3">
-                <div class="card-image-cap">
-                  <img src="images/Large Logo.png" alt="" class="img-fluid">
-                </div>
-                <div class="card-body">
-                  <strong>
-                    General event text
-                  </strong>
-                  <p>
-                      Girls++ presents a new event focusing on helping girls grow!! 9/12/19 in Classroom South
-                  </p>
-                  <button class="btn btn-block btn-success">
-                    RSVP
-                  </button>
-                </div>
-              </div>
-            </div>
-
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="card mb-3">
-                <div class="card-image-cap">
-                  <img src="images/Large Logo.png" alt="" class="img-fluid">
-                </div>
-                <div class="card-body">
-                  <strong>
-                    General event text
-                  </strong>
-                  <p>
-                      Girls++ presents a new event focusing on helping girls grow!! 9/12/19 in Classroom South
-                  </p>
-                  <button class="btn btn-block btn-success">
-                    RSVP
-                  </button>
-                </div>
-              </div>
-            </div>
-
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="card mb-3">
-                <div class="card-image-cap">
-                  <img src="images/Large Logo.png" alt="" class="img-fluid">
-                </div>
-                <div class="card-body">
-                  <strong>
-                    General event text
-                  </strong>
-                  <p>
-                      Girls++ presents a new event focusing on helping girls grow!! 9/12/19 in Classroom South
-                  </p>
-                  <button class="btn btn-block btn-success">
-                    RSVP
-                  </button>
-                </div>
-              </div>
-            </div>
-
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="card mb-3">
-                <div class="card-image-cap">
-                  <img src="images/Large Logo.png" alt="" class="img-fluid">
-                </div>
-                <div class="card-body">
-                  <strong>
-                    General event text
-                  </strong>
-                  <p>
-                      Girls++ presents a new event focusing on helping girls grow!! 9/12/19 in Classroom South
-                  </p>
-                  <button class="btn btn-block btn-success">
-                    RSVP
-                  </button>
-                </div>
-              </div>
-            </div>
-
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card mb-3">
-              <div class="card-image-cap">
-                <img src="images/Large Logo.png" alt="" class="img-fluid">
-              </div>
-              <div class="card-body">
-                <strong>
-                  General event text
-                </strong>
-                <p>
-                 Girls++ presents a new event focusing on helping girls grow!! 9/12/19 in Classroom South
-                </p>
-                <button class="btn btn-block btn-success">
-                  RSVP
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-            <div class="card mb-3">
-              <div class="card-image-cap">
-                <img src="images/Large Logo.png" alt="" class="img-fluid">
-              </div>
-              <div class="card-body">
-                <strong>
-                  General event text
-                </strong>
-                <p>
-                    Girls++ presents a new event focusing on helping girls grow!! 9/12/19 in Classroom South
-                </p>
-                <button class="btn btn-block btn-success">
-                  RSVP
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="card mb-3">
-                <div class="card-image-cap">
-                  <img src="images/Large Logo.png" alt="" class="img-fluid">
-                </div>
-                <div class="card-body">
-                  <strong>
-                    General event text
-                  </strong>
-                  <p>
-                      Girls++ presents a new event focusing on helping girls grow!! 9/12/19 in Classroom South
-                  </p>
-                  <button class="btn btn-block btn-success">
-                    RSVP
-                  </button>
-                </div>
-              </div>
-            </div>
-
-        </div>
-      </div>
+        </div> 
     </div>
   </div>
 
-  <script src="events.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    </body>
-    </html>
+
+
+
+
+
+
+    
+
+    <main class="main-area">
+      
+        <nav id="filter" class="filters">
+         
+          <h1 class="text-center" style="font-family: 'Unica One', Cursive;">Filters</h3>
+          <hr class="my-4">
+          <br>
+            <h3 class="filter-title">Club Name</h3>
+            <br>
+            <ul class="filter-list" data-filter-group="club">
+                <li><a href="javascript:void(0)" data-filter=".pantherhackers">Panther Hackers</a></li>
+                <li><a href="javascript:void(0)" data-filter=".girls">Girls++</a></li>
+                <li><a href="javascript:void(0)" data-filter=".iee">IEEE</a></li>
+                <li><a href="javascript:void(0)" data-filter=".girlswhocode">Girls Who Code</a></li>
+                <li><a href="javascript:void(0)" data-filter=".csclub">CS Club</a></li>
+                <li><a href="javascript:void(0)" data-filter=".acm">ACM</a></li>
+               
+                <li><a href="javascript:void(0)" data-filter=".wit">WIT</a></li>
+                <li><a href="javascript:void(0)" data-filter=".issa">ISSA</a></li>
+                <li><a href="javascript:void(0)" data-filter=".auroragamedevelopment">Aurora Game Development</a></li>
+              
+            </ul><!-- .subject -->
+            <br>
+            <h3 class="filter-title">Event Type</h3>
+            <br>
+            <ul class="filter-list" data-filter-group="type">
+                <li><a href="javascript:void(0)" data-filter=".workshop">Workshop</a></li>
+                <li><a href="javascript:void(0)" data-filter=".speaker">Speaker</a></li>
+                <li><a href="javascript:void(0)" data-filter=".generalbodymeeting">General Body Meeting</a></li>
+                <li><a href="javascript:void(0)" data-filter=".election">Election</a></li>
+                <li><a href="javascript:void(0)" data-filter=".conference">Conference</a></li>
+                <li><a href="javascript:void(0)" data-filter=".party">Party</a></li>
+                <li><a href="javascript:void(0)" data-filter=".panel">Panel</a></li>
+             
+            </ul>
+<br>
+            <h3 class="filter-title">Filter by Day</h3>
+            <br>
+            <ul class="filter-list" data-filter-group="author">
+                <li><a href="javascript:void(0)" data-filter=".monday">Monday</a></li>
+                <li><a href="javascript:void(0)" data-filter=".tuesday">Tuesday</a></li>
+                <li><a href="javascript:void(0)" data-filter=".wednesday">Wednesday</a></li>
+                <li><a href="javascript:void(0)" data-filter=".thursday">Thursday</a></li>
+                <li><a href="javascript:void(0)" data-filter=".friday">Friday</a></li>
+         
+            </ul>
+
+
+
+        </nav><!-- .filters -->
+
+        <br>
+
+
+        <section class="courses">
+<br>
+            <div class="card mb-3 course pantherhackers monday tuesday wednesday thursday friday">
+                <div class="card-image-cap">
+                  <img src="images/Large Logo.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-body">
+                  <strong>Invasion 8/26-8/30</strong>
+                  <p>
+                      PantherHacks is hosting an invasion. Starting 8/26-8/30, PantherHackers will be in a classroom near you. <br><br>
+                  </p>
+                  <button class="btn btn-block btn-success">
+                    RSVP
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3 course tuesday girls wit girlswhocode panel">
+                <div class="card-image-cap">
+                  <img src="images/Large Logo.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-body">
+                  <strong>
+                   Deloitte Career Panel 9/3
+                  </strong>
+                  <p>
+                    PantherHackers and Girls++ present a Deloitte career panel. This event will focus on answering questions about consulting careers in tech.
+                    <br>
+                  </p>
+                  <button class="btn btn-block btn-success">
+                    RSVP
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3 course pantherhackers wit girls girlswhocode csclub issa acm iee auroragamedevelopment thursday">
+                <div class="card-image-cap">
+                  <img src="images/Large Logo.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-body">
+                  <strong>
+                    CIS/CS Student Org Fair 9/5
+                  </strong>
+                  <p>
+                      Pantherhackers in conjunction with several CIS/CS clubs, is hosting a fair. From 12:30-4:30, come out and see all the CS/CIS clubs on campus. Food and drinks will be served. 
+                      
+                    </p>
+                  <button class="btn btn-block btn-success">
+                    RSVP
+                  </button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card mb-3 course pantherhackers thursday">
+                <div class="card-image-cap">
+                  <img src="images/Large Logo.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-body">
+                  <strong>
+                    PantherHackers Drone Event 9/26
+                  </strong>
+                  <p>
+                      Pantherhackers is hosting a drone event.
+                     
+                      
+                    </p>
+                  <button class="btn btn-block btn-success">
+                    RSVP
+                  </button>
+                </div>
+              </div>
+
+              
+
+
+
+              
+         
+
+            
+
+            
+
+        </section>
+      </div>
+
+    </main>
+    
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/isotope.settings.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

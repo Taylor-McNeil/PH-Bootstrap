@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Social Media Icons-->
+        <link rel="stylesheet" type="text/css" href="css/events.css">
+        
+        <title>Events</title>
+    </head>
+
+    <body>
+
+<header>
+   
+
+        <!-- The Nav Bar-->
+        
+            <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+                    <a class="navbar-brand" href="index.html">PantherHackers</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav ml-auto">
+                       
+                        <li class="nav-item">
+                          <a class="nav-link" href="about.html">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                          <a class="nav-link" href="events.html">Events</a>
+                        </li>
+
+        <!-- Drop down portion of the nav bar-->                
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Interest Groups
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="ios.html">IOS Development</a>
+                            <a class="dropdown-item" href="#">Pantheress</a>
+                            <a class="dropdown-item" href="#">Robotics</a>
+                            <a class="dropdown-item" href="#">CyberSecurity</a>
+                            <a class="dropdown-item" href="#">CTCI</a>
+                            <a class="dropdown-item" href="#">Start Ups</a>
+                          </div>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="#">Resources</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="#" data-toggle="modal" data-target="#ContactUsModal">Contact</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+
+            <!-- Modals for Nav Bar (About)-->   
+               
+            <!-- Modals for Nav Bar (Contact)-->
+                <div class="modal fade " tabindex="-1" role="dialog" id=ContactUsModal>
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Want to Chat?</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <div class= "container">
+                                  
+                                <div class="row">
+                                      <div class="col-sm-6">
+                                     <em>PantherHackers HQ</em>
+                                      <p>55 Gilmer St SE <br> 
+                                        Atlanta,GA 30303
+                                      </p>
+                                       
+                                      </div>
+                                      <div class="col-sm-6">
+                                          Email Form goes here
+                                        </div>
+                                    </div>
+                                    
+                                        
+                                      
+
+                              </div>
+                             
+
+
+                            </div>
+                            <div class="modal-footer justify-content-between">
+                            
+                                    <a href="https://twitter.com/pantherhackers?lang=en" class="fa fa-twitter fa-2x "></a>
+                                    <a href="https://join.slack.com/t/pantherhackers/shared_invite/enQtNTgzMzU2MDI2MzczLTFhZjgxNWY5MTI2NWYzMTVmOTJiMTBlODIxNWJmODdiOWY1NTBhYWQwZmFiMWE0NWRlZDEyMDM2MmEwYzQwOTQ" class="fa fa-slack fa-2x"></a>
+                                    <a href="https://www.instagram.com/pantherhackers/" class="fa fa-instagram fa-2x"></a>
+                                    <a href ="https://www.linkedin.com/company/12177373" class="fa fa-linkedin fa-2x"></a>
+                                    <a href="https://www.facebook.com/PantherHackers/" class="fa fa-facebook fa-2x"></a>
+                                   
+                                    
+                            </div>
+                          </div>
+                        </div>
+                      </div>        
+   
+
+</header>
+
+
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-3 d-none d-md-block">
+        <div class="card">
+          <div class="card-header">
+            Filters
+          </div>
+          <div class="card-body">
+            
+            <strong>
+              Clubs
+            </strong>
+
+            
+            <div class="form-group">
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" onclick="filterSelection('pantherhackers')">
+                <label class="form-check-label">
+                  PantherHackers
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" onclick="filterSelection('girls')">
+                <label class="form-check-label">
+                  Girls++
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">
+                  IEEE
+                </label>
+              </div>
+
+              <div class="form-check">
+                  <input type="checkbox" class="form-check-input">
+                  <label class="form-check-label">
+                    GirlsWhoCode
+                  </label>
+                </div>
+  
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input">
+                  <label class="form-check-label">
+                    CS Club
+                  </label>
+                </div>
+  
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input">
+                  <label class="form-check-label">
+                    IEEE
+                  </label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input">
+                    <label class="form-check-label">
+                      ACM
+                    </label>
+                  </div>
+
+                  <div class="form-check">
+                      <input type="checkbox" class="form-check-input">
+                      <label class="form-check-label">
+                        WIT
+                      </label>
+                    </div>
+                    
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input">
+                        <label class="form-check-label">
+                          ISSA
+                        </label>
+                      </div>     
+            </div>
+
+
+            <div class="form-group">
+                <strong>
+                    Day
+                  </strong>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input">
+                    <label class="form-check-label">
+                      Monday
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input">
+                    <label class="form-check-label">
+                      Tuesday
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input">
+                    <label class="form-check-label">
+                      Wednesday
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input">
+                    <label class="form-check-label">
+                      Thursday
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input">
+                    <label class="form-check-label">
+                      Friday
+                    </label>
+                </div>
+          </div>
+
+          <strong>
+              Type of Event
+            </strong>
+            <div class="form-group">
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">
+                  Workshop
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">
+                  Speaker
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">
+                  General Body Meeting
+                </label>
+              </div>
+
+              <div class="form-check">
+                  <input type="checkbox" class="form-check-input">
+                  <label class="form-check-label">
+                   Election
+                  </label>
+                </div>
+  
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input">
+                  <label class="form-check-label">
+                    Conference
+                  </label>
+                </div>
+  
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input">
+                  <label class="form-check-label">
+                    Party
+                  </label>
+                </div>
+
+                
+
+
+
+            </div>
+
+
+
+
+        </div>
+      </div>
+      </div>
+
+      <div class="col-md-3 d-md-none text-center center-block ">
+          <input type="text" id="myFilter" class="form-control" onkeyup="myFunction()" placeholder="Search for names..">
+            <br>
+      </div>
+
+
+
+      <div class="col-12 col-md-9">
+        <div class="row no-gutters" id="myItems">
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="filterDiv girls">
+              <div class="card mb-3">
+                  <div class="card-image-cap">
+                    <img src="images/Large Logo.png" alt="" class="img-fluid">
+                  </div>
+                  <div class="card-body">
+                    <strong>
+                      General event text
+                    </strong>
+                    <p>
+                        Girls++ presents a new event focusing on helping girls grow!! 9/12/19 in Classroom South
+                    </p>
+                    <button class="btn btn-block btn-success">
+                      RSVP
+                    </button>
+                  </div>
+                </div>
+              </div>  
+
+              </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              
+            <div class="card mb-3">
+                <div class="card-image-cap">
+                  <img src="images/Large Logo.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-body">
+                  <strong>
+                    General event text
+                  </strong>
+                  <p>
+                      Girls++ presents a new event focusing on helping girls grow!! 9/12/19 in Classroom South
+                  </p>
+                  <button class="btn btn-block btn-success">
+                    RSVP
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card mb-3">
+                <div class="card-image-cap">
+                  <img src="images/Large Logo.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-body">
+                  <strong>
+                    General event text
+                  </strong>
+                  <p>
+                      Girls++ presents a new event focusing on helping girls grow!! 9/12/19 in Classroom South
+                  </p>
+                  <button class="btn btn-block btn-success">
+                    RSVP
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card mb-3">
+                <div class="card-image-cap">
+                  <img src="images/Large Logo.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-body">
+                  <strong>
+                    General event text
+                  </strong>
+                  <p>
+                      Girls++ presents a new event focusing on helping girls grow!! 9/12/19 in Classroom South
+                  </p>
+                  <button class="btn btn-block btn-success">
+                    RSVP
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card mb-3">
+                <div class="card-image-cap">
+                  <img src="images/Large Logo.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-body">
+                  <strong>
+                    General event text
+                  </strong>
+                  <p>
+                      Girls++ presents a new event focusing on helping girls grow!! 9/12/19 in Classroom South
+                  </p>
+                  <button class="btn btn-block btn-success">
+                    RSVP
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card mb-3">
+              <div class="card-image-cap">
+                <img src="images/Large Logo.png" alt="" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <strong>
+                  General event text
+                </strong>
+                <p>
+                 Girls++ presents a new event focusing on helping girls grow!! 9/12/19 in Classroom South
+                </p>
+                <button class="btn btn-block btn-success">
+                  RSVP
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="card mb-3">
+              <div class="card-image-cap">
+                <img src="images/Large Logo.png" alt="" class="img-fluid">
+              </div>
+              <div class="card-body">
+                <strong>
+                  General event text
+                </strong>
+                <p>
+                    Girls++ presents a new event focusing on helping girls grow!! 9/12/19 in Classroom South
+                </p>
+                <button class="btn btn-block btn-success">
+                  RSVP
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="card mb-3">
+                <div class="card-image-cap">
+                  <img src="images/Large Logo.png" alt="" class="img-fluid">
+                </div>
+                <div class="card-body">
+                  <strong>
+                    General event text
+                  </strong>
+                  <p>
+                      Girls++ presents a new event focusing on helping girls grow!! 9/12/19 in Classroom South
+                  </p>
+                  <button class="btn btn-block btn-success">
+                    RSVP
+                  </button>
+                </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="events.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </body>
+    </html>
